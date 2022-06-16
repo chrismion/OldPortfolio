@@ -1,0 +1,438 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+html,body{
+	height: 100%;
+
+}
+
+.container{
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 2%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.menu > header{
+	width: 100%;
+	background-color: #1a1b1c;
+	position: fixed;
+	padding: 15px 0;
+	z-index: 998;
+
+}
+
+.menu .logo,.menu-desktop{
+	border-bottom: 1px solid white;
+}
+
+.logo{
+		width: 50%;
+		color: white;
+	 	font-weight: bold;
+	 	font-size: 20px;
+	}
+.logo-mobile{
+		width: 50%;
+		color: white;
+		font-weight: bold;
+		font-size: 40px;
+		display: none;}
+.menu-item i{
+	color: white;
+	background-size: 100% 100%;
+	cursor: pointer;
+	font-size: 25px;
+}
+.menu-desktop{
+	width: 50%;
+	text-align: right;
+
+}
+.menu-desktop li{
+	cursor: pointer;
+	display: inline-block;
+	margin-left: 35px;
+}
+
+.menu-desktop a{
+	text-decoration: none;
+	color: white;
+}
+
+.menu-desktop a:hover{
+	transition: 0.7s;
+	color: #ccc;
+}
+
+ nav.menu-mobile{
+ 	display: none;
+	cursor: pointer;
+	z-index: 999;
+
+ }
+
+ .menu-item {
+ 	text-align: right;
+ 	position: absolute;
+ 	right: 0;
+ 	bottom: 0;
+
+ }
+
+
+
+ nav.menu-mobile ul {
+ 	display: none;
+ 	text-align: center;
+ 	width: 100%;
+ 	background-color: #1a1b1c;
+ 	position: absolute;
+ 	left: 0;
+ 	top: 76px;
+ 	z-index: 999;
+ 	list-style-type: none;
+
+ }
+ nav.menu-mobile li{
+ 	padding: 8px 0;
+ 	border-bottom: 1px solid white;
+
+ }
+ nav.menu-mobile a {
+ 	display: block;
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+ .first-content{
+ 	background-image: url('../images/bg.jpg');
+ 	background-position: center;
+ 	background-size: center;
+ 	background-attachment: fixed;
+ 	padding: 180px 0;
+ 	color: white;
+ 	text-align: center;
+	justify-content: center;
+ }
+
+.foto{
+	background-image: url('../images/chris.png');
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: white;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+}
+ .first-content > .container{
+ 	display: block;
+ }
+
+ section.certificados{
+	 width: 100%;
+	 padding: 1px 0;
+	background-color: #1a1b1c;
+	text-align: center;
+}
+
+section.certificados h1{
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	margin: 10px 0;
+
+
+}
+
+.line-text{
+ position: relative;
+ display: inline-block;
+}
+.line-text div{
+ position: absolute;
+ top: 0;
+ left: -110px;
+ width: 100px;
+ height: 3px;
+ background-color: white;
+}
+
+.carousel{
+		background-color: #020f73;
+}
+
+.slick-dots{
+	display: none !important;
+}
+.carousel img{
+	border: 4px inset white;
+	margin-top: 30px;
+	width: 50%;
+	margin-left: 25%;
+	margin-bottom: 15px;
+}
+
+.carousel .container{
+
+	max-width: 900px;
+	text-align: center;
+
+}
+
+section.habilidades{
+ width: 100%;
+ padding: 5px 0;
+ background-color: #1a1b1c;
+ text-align: center;
+
+}
+
+section.habilidades h1{
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 30px;
+
+}
+
+
+
+.habilidades .box-lista{
+	margin-right: 10px;
+	width: 33%;
+	border-radius: 10px;
+	height: 380px;
+	background-color: #f5f5f5;
+	box-shadow: 0px 30px 47px #2426721C;
+	position: relative;
+	left: 0;
+	top: 65px;
+}
+
+.box-lista p {
+	margin-top: 20px;
+	margin-right: 5px;
+	vertical-align: middle;
+	font-size: 14px;
+	text-align: left;
+}
+
+.box-lista span{
+
+	display: inline-block;
+	width: calc(100% - 70px);
+
+}
+
+.box-lista p:nth-of-type(1){
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.box-lista p:nth-of-type(2){
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.box-lista p:nth-of-type(3){
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.box-lista p:nth-of-type(4){
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.box-lista img{
+	display: inline-block;
+	width: 70px;
+	vertical-align: middle;
+	position: relative;
+	left: 0;
+	top: 5px;
+}
+
+.habilidades .box-imagem{
+	width: 64%;
+	border-radius: 15px;
+
+}
+
+.box-imagem img{
+	width: 100%;
+
+}
+
+section.projetos{
+ width: 100%;
+ padding: 5px 0;
+ background-color: #1a1b1c;
+ text-align: center;
+
+}
+
+section.projetos h1{
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 30px;
+	position: relative;
+	left: -31px;
+
+}
+
+.projeto{
+
+	width: 400px;
+	height: 300px;
+	margin: 15px 0 0 40px;
+	cursor: pointer;
+}
+
+
+.projeto p{
+	margin-top: 10px;
+}
+.projeto img{
+		width: 100%;
+		height: 100%;
+
+}
+
+.a-link{
+	text-decoration: none; 
+	text-align: center;
+	color: white;
+	width: 100%;
+	margin-top: 18px;
+}
+
+.a-link:hover{
+	transition: 0.7s;
+	color: #ccc;
+}
+
+.bg-projetos{
+	background-color: #020f73;
+	padding-bottom: 30px;
+
+}
+
+
+footer{
+	width: 100%;
+	border-top: 1px solid white;
+	background-color: #1a1b1c;
+	padding: 10px 0 8px 0;
+}
+
+footer .logos{
+	text-align: center;
+	width: 50%;
+}
+
+footer .contatos{
+	text-align: center;
+	width: 50%;
+	color: white;
+}
+
+footer h4{
+	color: white;
+	text-align: left;
+	margin-top: 10px;
+}
+
+footer ul{
+	list-style-type: none;
+}
+footer li{
+	display: inline-block;
+	margin: 10px 10px 0 0;
+}
+
+@media screen and (max-width: 768px){
+
+
+footer .contatos{
+	width: 100%;
+	margin-top: 10px;
+}
+footer .logo-mobile{
+	text-align: center;
+	margin-left: 135px;
+	margin-bottom: 10px;
+}
+
+footer .logos{
+	width: 100%;
+}
+.projeto{
+	margin: 5px 3px 5px 3px;
+
+}
+.box-lista .three{
+	position: relative;
+	left: 0;
+	top: -14px;
+}
+
+.box-lista .two{
+	position: relative;
+	left: 0;
+	top: -14px;
+}
+
+.box-lista .one{
+	position: relative;
+	left: 0;
+	top: -20px;
+}
+
+.habilidades .box-lista{
+	padding: 0 7px;
+	width: 100%;
+	margin-bottom: 20px;
+	top: 0px;
+	
+}
+
+.habilidades .box-imagem{
+	width: 100%;
+	padding: 0 7px;
+
+
+}
+
+.carousel .container{
+
+	padding: 0 15px;
+
+}
+
+
+.carousel img{
+		
+		width: 100%;
+		margin-left: 0;
+	}
+.foto{
+		width: 150px;
+		height: 150px;
+	}
+.logo{display: none;}
+.logo-mobile{display: flex; position: relative;left: 0;top: 14px;}
+nav.menu-desktop{display: none;}
+nav.menu-mobile{display: block;}
+}
